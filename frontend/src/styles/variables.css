@@ -5,8 +5,9 @@
   --color-primary-bright: #27ae60;/* Brighter green → good for buttons and highlights */
 
   /* 📄 Page Basics */
-  --color-bg: #f4f4f4;            /* Page background → behind everything (like paper) */
-  --color-text: #eaebe6;          /* Text color → for reading (dark gray, not too harsh) */
+  --color-bg: #dae2cb;            /* Page background → behind everything (like paper) */
+  --color-text: #eaebe6;  
+  --color-text-2:#102e16;        /* Text color → for reading (dark gray, not too harsh) */
 
   /* ✨ Fun Highlight Color */
   --color-accent: #f1c40f;        /* Yellow → makes things pop (like buttons or links) */

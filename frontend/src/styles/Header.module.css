@@ -2,23 +2,22 @@
   width: 100%; 
   display: flex;
   justify-content: center;
+  height: 10vh;
 }
 .header {
   background-color: var(--color-primary);
   color: var(--color-text);
-  padding: 5px;
-  border-radius: 50px; /* optional: only round bottom edges */
+  border-radius: 50px; 
   width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0px 2rem;
+  padding: 1px 3rem;
 }
 .name{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 0.7rem;
   text-decoration: none;
   color: var(--color-text);
 }
@@ -26,7 +25,6 @@
   width: 20%;
   display: flex;
   justify-content: space-between;
-
 }
 
 .Links a{
