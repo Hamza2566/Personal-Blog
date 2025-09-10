@@ -1,0 +1,19 @@
+:root {
+  /* 🌲 Main Green Family */
+  --color-primary: #102e16;       /* Main dark green → use for header or big areas */
+  --color-primary-light: #1e5631; /* Lighter green → good for backgrounds */
+  --color-primary-bright: #27ae60;/* Brighter green → good for buttons and highlights */
+
+  /* 📄 Page Basics */
+  --color-bg: #f4f4f4;            /* Page background → behind everything (like paper) */
+  --color-text: #eaebe6;          /* Text color → for reading (dark gray, not too harsh) */
+
+  /* ✨ Fun Highlight Color */
+  --color-accent: #f1c40f;        /* Yellow → makes things pop (like buttons or links) */
+  --color-accent-dark: #d4ac0d;   /* Darker yellow → when you hover the button */
+
+  /* 🚦 Traffic Light Colors (special messages) */
+  --color-success: #27ae60;       /* Green → "Yes! It worked" messages */
+  --color-error: #e74c3c;         /* Red → "Oops, something is wrong" */
+  --color-info: #3498db;          /* Blue → "Hey, here's some info" */
+}
