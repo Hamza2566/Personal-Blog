@@ -2,7 +2,7 @@
   /* padding: 12rem 2rem; */
   display: flex;
   flex-direction: column;
-  font-family: Caprasimo,sans-serif;
+   font-family: "Tagesschrift", system-ui;
 }
 .text {
   padding: 5%;
@@ -13,7 +13,6 @@
   gap: 15px;
 }
 .text h1 {
-    border: 2px solid darkblue;
     width: 60%;
     color: var(--color-text-2);
     font-size: 3rem;
@@ -26,15 +25,121 @@
 
 }
 .subscription {
-  border: 2px solid black;
   display: flex;
   flex-direction: column;
   align-items: center;
     color: var(--color-text-2);
     gap: 10px;
 }
-.subscription input{
+.email{
+  width: 35%;
+  display: flex;
+  padding: 1rem;
+  max-height: 100px;
+  height: 90px;
+   justify-content: center;
 
-    padding: 20px 15%;
 }
+ .group {
+    display: flex;
+    align-items: center;
+  }
 
+  .input {
+    min-height: 50px;
+    width: 70%;
+    padding: 0 1rem;
+    color: var(--color-text-2);
+    font-size: 15px;
+    border: 1px solid var(--color-primary-light);
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+
+  .button {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: var(--color-primary-light);
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+
+  .button--submit:hover {
+    background-color: #5e5dcd;
+  }
+
+  .input:focus, .input:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+  }
+  .article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .DownArrow{
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2.5rem;
+  cursor: pointer;
+  animation: bounce 1.5s infinite;
+  }
+  .posts{
+    /* border: 2px solid black; */
+    width: 100%;
+    padding: 2rem;
+  }
+  .search{
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 20px;
+  }
+  .tags{
+    display: flex;
+    width: 100%;
+    border: 2px solid var(--color-primary-bright);
+    border-radius: 10px;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .tags > *{
+    font-size: 0.8rem;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    display: flex;
+  }
+  .tag{
+    flex: 1;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  .tag >  *{
+    background-color: var(--color-accent);
+    padding: 5px;
+    border-radius: 10px;
+
+
+  }
+  .SearchInput{
+    padding: 0.7rem 2rem;
+    border-radius: 0 6px 6px 0;
+    background-color: var(--color-bg);
+    color: var(--color-text-2);
+    font-size: 15px;
+    transition: background-color .3s ease-in-out;
+    border: 1px solid var(--color-primary-light);
+    outline: none;
+
+  }

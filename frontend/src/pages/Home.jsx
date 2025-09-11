@@ -13,10 +13,44 @@ function Home() {
         </div>
         <div className={styles.subscription}>
           <h5>Get exclusive updates, news, and resources that help you stay ahead.</h5>
-          <input type="email" name="sub-email" id="sub-email" className="sub-email" />
+          <div className={styles.email}>
+          <div className={styles.group}>
+        <input type="email" className={styles.input} id="Email" name="Email" placeholder="Email" autoComplete="off" required />
+        <input className={styles.button} defaultValue="Subscribe" type="submit" />
+      </div>
+          
+
+          </div>
         </div>
 
           
+        </div>
+        <div className={styles.article}>
+          <div className={styles.DownArrow}>Scroll Down</div>
+          
+          <div className={styles.posts}>
+            <div className={styles.search}>
+              <div className={styles.SearchIntro}>
+                
+              <h3>Search By Tags Or Search</h3>
+              </div>
+              <div className={styles.tags}>
+                <div className={styles.tag}>
+                                  <h3>Javascript</h3>
+                <h3>Javascript</h3>
+                <h3>Javascript</h3>
+                <h3>Javascript</h3>
+                </div>
+                <div className={styles.tagSearch}>
+              <input type="search" name="search" id="search" className={styles.SearchInput} placeholder="Search" />
+
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
         </div>
 
       </div>
